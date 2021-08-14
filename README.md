@@ -12,21 +12,23 @@
 
 ### Day 1
 
+<img src='images/light.png' width=17> Today, you’ll set up your Kaggle account, move up from Novice to Contributor, and even make your very first submission to a Kaggle competition! The assignment should only take 45 minutes to complete.
+
+<img src='images/light.png' width=17> Also, you’ll be able to jump into our Discord community & connect with other learners. It will be a great resource to ask questions and get help from others.
+
 * Follow the instructions in [this notebook](https://notifications.google.com/g/p/AD-FnEz8bhmh9JJEvNrS-CuBtJFLOeFX8tAgNJJHtgmjn2SaUynILgYzUBLPOFKODEm8NK9B1QCrQ73oGzgqm-UXc8TA7N2DG-xIe9v2W3N3h2_G4VAMyyPMOtigBbPaqCW1munx6LtDRVYE20qBe00CA-KF1yPxcPGalxh74Iwil85-xK-3__-b5L3FZG2KZZTk_WepQJDI31gasT_FqJRPFEBue_fBCdstjna_fOzYDRjy2h2127-z) to get started with Kaggle.
 
 * [Join 30 Days of ML Discord Community](https://notifications.google.com/g/p/AD-FnEzKkMbCxdfq2blB3ABDaDUkvn5I1JhGM8TSVVPGquAAl2z8FxhrAwP4F920eKpK2hx8uWvVm7qvuZ1Sifv5_E3w) and introduce yourself in the #introductions channel
 
-* Today, you’ll set up your Kaggle account, move up from Novice to Contributor, and even make your very first submission to a Kaggle competition! The assignment should only take 45 minutes to complete.
-
-* Also, you’ll be able to jump into our Discord community & connect with other learners. It will be a great resource to ask questions and get help from others.
 
 ### Day 2
+
+><img src='images/light.png' width=17> In Lesson 1 (Hello Python), you’ll get a feel for Python syntax, and learn how to work with variables and do arithmetic in Python.
 
 * Read this [tutorial](https://notifications.google.com/g/p/AD-FnEwY5POHCqgMRxGlgwsO-f2QmnR5g5xexFTmCQO3tdTn6PC37ZQloPbZr9_LzFNubnDoxzWan6uHNauPXU1MhFsru-PCpGSy1A6C_KK8TS-p3Hs-lnCGiZZzSvN93k7DidGpv12zbeLoshHNbOxKUkUZVUBoVRM5wg8WAw0X3wo6iqw8pP57gnn5ls8MTg2DZkcBMdekufNX_NEk6D0lYtLO2JklZIfS) (from Lesson 1 of the Python course)
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEwK4Spvdh2w9KFthW6PxFlpkgyXob1hIkWDKXpCry216ODSeW6tTjzazsjD65ZS5no2iAxK6k2-BtErGnQ91WmV39okyBsw4y7VgofVwdZoladMgoHXSSpSQtBqz4dkI1oZQMH9zJRmMeKZJCKcoCoEVpE4F5RKiHs_WP2srMI2ZVTLQhZBzJLln8R8_ZzlKf3QI3nEY8Yp-sLD9d0y4QuLrw) (from Lesson 1 of the Python course)
 
-* In Lesson 1 (Hello Python), you’ll get a feel for Python syntax, and learn how to work with variables and do arithmetic in Python.
 
 ### Day 3
 
