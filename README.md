@@ -106,6 +106,21 @@
 
 ### Day 9
 
+<img src='images/light.png' width=17> In **Lesson 3 (Your First Machine Learning Model)**, you’ll create a machine learning model using the ***scikit-learn*** library, one of the most popular and efficient tools for data analysis.
+
+<img src='images/light.png' width=17> Along the way, you’ll learn some basic techniques for working with very large datasets. These skills are especially important for modern data scientists, who often work with “big data” containing millions of variables ― many more than a human can conceivably understand! Thankfully, machines excel at discovering useful patterns in datasets that are too large for humans to wrap their heads around. :)
+
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEw3URQCA9SnFTAQAxZ39_-vIzRdFa_c2V3n5y3C_ZhgisUiW6K4fPVEXXPGI4bBOu5-qoyhRTajhqFn6Cio4Z1gVlf87qUig8ErjIcs8uoMXaD_XcWh1-tSuAbA3ER3V1qyiPCgIx2mNgvXoJxbR9c1X9bDunl3luf8o7iNvimHIThmg5f1qWC-2ujUFob-Gu4HVjKj2b3IiEYasrY9gbmv1OqvAk5sjxOdhxejQpSeOdgHZLFkjlGe0uDE) (from Lesson 3 of the Intro to ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEzWoBt98mB-XLjPVxKEZzFMsn63E7IDjedI8es5FkpHeb4CLQiDe3kY7YVDivTYQCMdB7TkjWTRKtFwyPppEh4oxIdx7ZSo4NttlqpWw0i7zWzDaebHoShdJ2YB1XiQ4kqfkshD2FF40GUwOkJGvXbAElWgTYLeP0RLkg2zQybCg57T19q1oUq492yO_3V0RyZUqCUzgceA3Hxdykg0YMrUULA) (from Lesson 3 of the Intro to ML course)
+
+<img src='images/light.png' width=17> Once you have built a model, how good is it? How exactly should you judge how close the model’s predictions are to what actually happened? In **Lesson 4 (Model Validation)**, you’ll use model validation to measure the quality of your model.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEx8Yt0wVJ6TsHtGBO7zSsykfrba-VGYLtD5-sm6L0QnrbNdW_8iVvPlc2q-IgR6sbapqtzvfMfzKxZukwdEKhqJ7QMi_I1JhQ1ur7oAr6UGOjWeTHflWaUUZnDusMHR8O4QywPcZB1gndM-oKA0oRXFlsN3JwlmvxV3lqCLlotGv8EPaOUz91OFPlre71mC6_mCDWEqMeAdX24IxwO1KiG3j6Wmcd4OSOzO9Q) (from Lesson 4 of the Intro to ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEyvp2vQe8NCWhFRzwwnAd8QZS604ENjU0KXjyouF2ziFX52dtQM8KJiOFzLW6Khq1TU2Mnx7KT6TG7SKYk1FNoJTjIvA9iQe-kuIAlxqgBdr0kKHM4hM8ajLFR2CYmJyZ8prGK40tnXif2p_c_9kDPjHyhh9Du9HF9YCbti8v9MolkbjNH3vPsoWiIShXLQiqtmN3jRyKvWScHZuzt_5V9yPhY) (from Lesson 4 of the Intro to ML course)
+
 ### Day 10
 
 ### Day 11
