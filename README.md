@@ -1,16 +1,47 @@
 # Kaggle - 30 Days of ML
 
-## TOC
-* [**Week 1: Python Basics**](#week-1-python-basics)
-* [**Week 2: Machine Learning**](#week-2-machine-learning)
-* [**Week 3:**](#week-3)
-* [**Week 4:**](#week-4)
+- [Kaggle - 30 Days of ML](#kaggle---30-days-of-ml)
+  - [Week 1: Python Basics](#week-1-python-basics)
+    - [Day 1: Level up to Contributor](#day-1-level-up-to-contributor)
+    - [Day 2: Hello Python](#day-2-hello-python)
+    - [Day 3: Functions and Getting Help](#day-3-functions-and-getting-help)
+    - [Day 4: Booleans and Conditionals](#day-4-booleans-and-conditionals)
+    - [Day 5: Lists, Loops and List Comprehensions](#day-5-lists-loops-and-list-comprehensions)
+    - [Day 6: Strings and Dictionaries](#day-6-strings-and-dictionaries)
+    - [Day 7: Working with External Libraries](#day-7-working-with-external-libraries)
+  - [Week 2: Machine Learning & Basic Data Exploration](#week-2-machine-learning--basic-data-exploration)
+    - [Day 8: How Models Work](#day-8-how-models-work)
+    - [Day 9: Your First ML Model & Model Validation](#day-9-your-first-ml-model--model-validation)
+    - [Day 10: Underfitting/Overfitting & Random Forests](#day-10-underfittingoverfitting--random-forests)
+    - [Day 11](#day-11)
+    - [Day 12](#day-12)
+    - [Day 13](#day-13)
+    - [Day 14](#day-14)
+  - [Week 3:](#week-3)
+    - [Day 15](#day-15)
+    - [Day 16](#day-16)
+    - [Day 17](#day-17)
+    - [Day 18](#day-18)
+    - [Day 19](#day-19)
+    - [Day 20](#day-20)
+    - [Day 21](#day-21)
+  - [Week 4:](#week-4)
+    - [Day 22](#day-22)
+    - [Day 23](#day-23)
+    - [Day 24](#day-24)
+    - [Day 25](#day-25)
+    - [Day 26](#day-26)
+    - [Day 27](#day-27)
+    - [Day 28](#day-28)
+    - [Day 29](#day-29)
+    - [Day 30](#day-30)
 
+--
 
 ## Week 1: Python Basics
 ![week1](images/week1.png)
 
-### Day 1
+### Day 1: Level up to Contributor
 
 <img src='images/light.png' width=17> Today, you’ll set up your Kaggle account, move up from Novice to Contributor, and even make your very first submission to a Kaggle competition! The assignment should only take 45 minutes to complete.
 
@@ -20,8 +51,9 @@
 
 * [Join 30 Days of ML Discord Community](https://notifications.google.com/g/p/AD-FnEzKkMbCxdfq2blB3ABDaDUkvn5I1JhGM8TSVVPGquAAl2z8FxhrAwP4F920eKpK2hx8uWvVm7qvuZ1Sifv5_E3w) and introduce yourself in the #introductions channel
 
+--
 
-### Day 2
+### Day 2: Hello Python
 
 <img src='images/light.png' width=17> In **Lesson 1 (Hello Python)**, you’ll get a feel for Python syntax, and learn how to work with variables and do arithmetic in Python.
 
@@ -29,8 +61,9 @@
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEwK4Spvdh2w9KFthW6PxFlpkgyXob1hIkWDKXpCry216ODSeW6tTjzazsjD65ZS5no2iAxK6k2-BtErGnQ91WmV39okyBsw4y7VgofVwdZoladMgoHXSSpSQtBqz4dkI1oZQMH9zJRmMeKZJCKcoCoEVpE4F5RKiHs_WP2srMI2ZVTLQhZBzJLln8R8_ZzlKf3QI3nEY8Yp-sLD9d0y4QuLrw) (from Lesson 1 of the Python course)
 
+--
 
-### Day 3
+### Day 3: Functions and Getting Help
 
 <img src='images/light.png' width=17> In **Lesson 2 (Functions and Getting Help)**, you’ll learn how to work with functions, which are reusable blocks of code designed to perform a task. You’ll also learn how to write your own!
 
@@ -38,8 +71,9 @@
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEyyRfSCqzETaGz4vf0d1gaocdokvmQU1DdWy-nPIl8ivliWV3770jJ2HpYMLZIBoMJQ960qgsCDqKDxvmybcVazt2pjdXFF_EHlJfQBUoiWaKjfSKT0KBN2tTXGqMhdVKRVfocyItO_NkaFfJVP-Pl0s32lfmwR-GdBNUObcY5yTRStLbgKkxqXONeNUE4u573A8Xmn7RHRyeAkqdNTjFt8ig) (from Lesson 2 of the Python course)
 
+--
 
-### Day 4
+### Day 4: Booleans and Conditionals
 
 <img src='images/light.png' width=17> In **Lesson 3 (Booleans and Conditionals)**, you’ll learn all about the Boolean data type, which allows you to represent “True” and “False” in Python code. 
 
@@ -49,8 +83,9 @@
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEx2rh1-NCshM46smvX_L-6QeSfpVUTDXUEIrNl-quOo3up2DspY8F4VU4Q6NUPcnUKPVPGvVEs8a6xscW12lUxUGDusiilf_Efmooe3tprPvPHaSIbkzRmXbRZfZwz8haIMSxPOOM8zSfno9gDEwRpXyq8yPV3X1M-thIDv6D6TABJPBVcLQ4YGumycMxGSnCLgSGcBwXwhpb8mCBpJEu4t3w) (from Lesson 3 of the Python course)
 
+--
 
-### Day 5
+### Day 5: Lists, Loops and List Comprehensions
 
 <img src='images/light.png' width=17> In **Lesson 4 (Lists)**, you’ll learn how to use Python lists to store ordered collections of values. Lists are incredibly useful when writing code to manage several related variables.
 
@@ -64,9 +99,9 @@
   
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEykbkcyJJNsgKckmvgg1wh_SVo4CJNzwnXqd7XiETOmB2tgfgXBSL_b271BmEHqC5syw_FxZJ24g6N1WjoseCHcX10C_AOu66t2PdLaQa5MnnVrlKLdg9tv5xdyrs-HVWNXp8yPvYTBPE7Q_sVtt_qw-8BIA9L56M3BvLV0_ELfm983xgG53hQtZuXaI8Xaiet8MIHLO2d1s1g2KJUJ3354H7I) (from Lesson 5 of the Python course)
 
+--
 
-
-### Day 6
+### Day 6: Strings and Dictionaries
 
 <img src='images/light.png' width=17> In **Lesson 6 (Strings and Dictionaries)**, you’ll learn about strings, which is a data type that is useful for representing human-readable data, such as text. 
 
@@ -76,8 +111,9 @@
   
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEwdLzZ1Oue_Ik1-SfAqcJDEAnIzHyCAOk2I4QbhO6LYRgvtoCfG-RcISN9qycox5Sjyleb5cs-Xzfpk40HwQ0gzIPXvIRwqKSPJ9b7nN__L5SY3ocWuV5ZRmEKAbWF3lV0cWYYVtibKYDLZ-cmDlw3vEJVdkJ3HqnCi90xTyO8DiL86eGO7PBMvK0YaGfuOLDWrYBA7tnJMtM9uoxyQItXNzBE) (from Lesson 6 of the Python course)
 
+--
 
-### Day 7
+### Day 7: Working with External Libraries
 
 <img src='images/light.png' width=17> One of the best things about Python is the vast number of high-quality custom libraries that have been written for it. In **Lesson 7 (Working with External Libraries)**, you’ll learn how to access this pre-written code and use it in your own work.
 
@@ -88,10 +124,10 @@
 
 ---
 
-## Week 2: Machine Learning
+## Week 2: Machine Learning & Basic Data Exploration
 ![week2](images/week2.png)
 
-### Day 8
+### Day 8: How Models Work
 <img src='images/light.png' width=17> In **Lesson 1 (How Models Work)**, you will start at the very beginning: what exactly is “machine learning”, and how is it used in the real world? 
 
 <img src='images/light.png' width=17> You’ll learn the answers to these questions and explore the basics of decision trees, as you start to build a strong foundation for some of the most cutting-edge techniques in data science.
@@ -104,7 +140,9 @@
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEyEp8uvnbgGW2UMCzrL-vN_GOGeVZYvoI2nJrXC-oOecRgmurx3DXxvA6pgA5PQeyS5OEx_W6ndpRLojFE42W34ZrzcNl9FwXkC_dQA3ziFqoK-jHHg7j-fc20fhgzSBCOb2GgzjNuum-Mmd6_YzCD-x8Tny8hMexN6qlkMxrMGk7HZlWZ7PE3mYHM6d81Ug_7COW9BxN6iZxm8dJuOvCWYtg) (from Lesson 2 of the Intro to ML course)
 
-### Day 9
+--
+
+### Day 9: Your First ML Model & Model Validation
 
 <img src='images/light.png' width=17> In **Lesson 3 (Your First Machine Learning Model)**, you’ll create a machine learning model using the ***scikit-learn*** library, one of the most popular and efficient tools for data analysis.
 
@@ -121,7 +159,29 @@
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEyvp2vQe8NCWhFRzwwnAd8QZS604ENjU0KXjyouF2ziFX52dtQM8KJiOFzLW6Khq1TU2Mnx7KT6TG7SKYk1FNoJTjIvA9iQe-kuIAlxqgBdr0kKHM4hM8ajLFR2CYmJyZ8prGK40tnXif2p_c_9kDPjHyhh9Du9HF9YCbti8v9MolkbjNH3vPsoWiIShXLQiqtmN3jRyKvWScHZuzt_5V9yPhY) (from Lesson 4 of the Intro to ML course)
 
-### Day 10
+--
+
+### Day 10: Underfitting/Overfitting & Random Forests
+
+<img src='images/light.png' width=17> In **Lesson 5 (Underfitting and Overfitting)**, you’ll learn about the fundamental concepts of underfitting and overfitting. Then you'll apply these ideas to gain a deep understanding of why some models succeed and others fail. This knowledge will make you much more efficient at discovering highly accurate machine learning models.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEwuFz2LVgfeZy_tkA-RnuTmGjITUmc1TDvRicBMqFO6PY05JW9ONWyp0ibjPLppegK1S6OXn0r5oCcE788y1siDt8DB-8MtrnarKiGV3ZUIpnDX5OrUPqaB8ECyp0bxj7VL6nUxjm2SY_3zoJ1tfv48a_jzFpVOoEaimAr_LZ49q6zSr2rstZrhBlMnt5kEnRJuCEmSY4WYnw-Ofwy1Ja3_oaYK5L4VXW0NiPeIWAuw0dUlrxAQ6g) (from Lesson 5 of the Intro to ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEx_9Ztnu1I6XPboL0dq6vyOUd9UxeITRQLWPwHFb-jgcjclfB7zHXsietaGvISdEncGEfXUepzj82sKuVXpj43zVWlkagvmGoGGnTKNG1XTy1h5vIMyaMg-P4jqKVGusZh18Txh4amWAPDvG39wKOeUp0ziiDoDI4rMFpoz7XR6e87nYjWTrtQUlQepzdYDcfTL1GY97B5BwIKxsaeZ1oC4ySU) (from Lesson 5 of the Intro to ML course)
+
+* Conclusion
+  
+  * **Overfitting**: capturing spurious patterns that won't recur in the future, leading to less accurate predictions. （分支過多）
+  
+  * **Underfitting**: failing to capture relevant patterns, again leading to less accurate predictions. （分支過少）
+  
+  * One of the best features of Random Forest models is that they generally work reasonably even without tuning. （隨機森林模型不加參數也有好表現）
+
+<img src='images/light.png' width=17> In **Lesson 6 (Random Forests)**, you’ll learn all about random forests, another machine learning model you can add to your growing toolkit. Then, put your new knowledge to use immediately by building your own random forest model that exceeds the performance of the models that you’ve built so far!
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEzsBdAGBN8EVf_eHx9GAC8Tm_TNWoG_yjV1YFU8lKvAdCUNARtFndDCxHAmYZOpVoI0trsuUSvq_QZUHPLwS84VAQ1l1y1Hq7l60jLj9AHNeeOHALWMwPURoWSlCMEN9bUxgbW7u7cjRC6KPzamhrIBTxYNouylw7Y_B781Esdso9UroOlXwf-zaj-gZ0Gc6qvifir32kLXCFdJDzUGnWl5IkzwCrD4egA) (from Lesson 6 of the Intro to ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEwhDV0s6j2emtTCNegBKjenk0oBg2RGeJPYEBTHoIhHbN01eVL8ExaHjbKAb4HYZmpZxZiDX2NHcMHYaXg2soFZVgjCiIy2PTy3THz0cDiGiO5gXO_uUzoqYlZfg8i-0Ze93B8Ux9SnoTYpdn8AkRRkrSRbKrmQ656bGOL-W8_4mKXQ_4YnZBVjDMzgvgf31BV_4Pa1-P5rC9bGdRb7TGf6GhM) (from Lesson 6 of the Intro to ML course)
 
 ### Day 11
 
