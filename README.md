@@ -165,7 +165,7 @@
 
 <img src='images/light.png' width=17> In **Lesson 5 (Underfitting and Overfitting)**, you’ll learn about the fundamental concepts of underfitting and overfitting. Then you'll apply these ideas to gain a deep understanding of why some models succeed and others fail. This knowledge will make you much more efficient at discovering highly accurate machine learning models.
 
-<img src='https://i.imgur.com/AXSEOfI.png' width=400>
+<img src='https://i.imgur.com/AXSEOfI.png' width=500>
 
 * Read this [tutorial](https://notifications.google.com/g/p/AD-FnEwuFz2LVgfeZy_tkA-RnuTmGjITUmc1TDvRicBMqFO6PY05JW9ONWyp0ibjPLppegK1S6OXn0r5oCcE788y1siDt8DB-8MtrnarKiGV3ZUIpnDX5OrUPqaB8ECyp0bxj7VL6nUxjm2SY_3zoJ1tfv48a_jzFpVOoEaimAr_LZ49q6zSr2rstZrhBlMnt5kEnRJuCEmSY4WYnw-Ofwy1Ja3_oaYK5L4VXW0NiPeIWAuw0dUlrxAQ6g) (from Lesson 5 of the Intro to ML course)
 
