@@ -13,7 +13,7 @@
     - [Day 8: How Models Work](#day-8-how-models-work)
     - [Day 9: Your First ML Model & Model Validation](#day-9-your-first-ml-model--model-validation)
     - [Day 10: Underfitting/Overfitting & Random Forests](#day-10-underfittingoverfitting--random-forests)
-    - [Day 11](#day-11)
+    - [Day 11: Machine Learning Competitions](#day-11-machine-learning-competitions)
     - [Day 12](#day-12)
     - [Day 13](#day-13)
     - [Day 14](#day-14)
@@ -165,9 +165,18 @@
 
 <img src='images/light.png' width=17> In **Lesson 5 (Underfitting and Overfitting)**, you’ll learn about the fundamental concepts of underfitting and overfitting. Then you'll apply these ideas to gain a deep understanding of why some models succeed and others fail. This knowledge will make you much more efficient at discovering highly accurate machine learning models.
 
+<img src='https://i.imgur.com/AXSEOfI.png' width=400>
+
 * Read this [tutorial](https://notifications.google.com/g/p/AD-FnEwuFz2LVgfeZy_tkA-RnuTmGjITUmc1TDvRicBMqFO6PY05JW9ONWyp0ibjPLppegK1S6OXn0r5oCcE788y1siDt8DB-8MtrnarKiGV3ZUIpnDX5OrUPqaB8ECyp0bxj7VL6nUxjm2SY_3zoJ1tfv48a_jzFpVOoEaimAr_LZ49q6zSr2rstZrhBlMnt5kEnRJuCEmSY4WYnw-Ofwy1Ja3_oaYK5L4VXW0NiPeIWAuw0dUlrxAQ6g) (from Lesson 5 of the Intro to ML course)
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEx_9Ztnu1I6XPboL0dq6vyOUd9UxeITRQLWPwHFb-jgcjclfB7zHXsietaGvISdEncGEfXUepzj82sKuVXpj43zVWlkagvmGoGGnTKNG1XTy1h5vIMyaMg-P4jqKVGusZh18Txh4amWAPDvG39wKOeUp0ziiDoDI4rMFpoz7XR6e87nYjWTrtQUlQepzdYDcfTL1GY97B5BwIKxsaeZ1oC4ySU) (from Lesson 5 of the Intro to ML course)
+
+
+<img src='images/light.png' width=17> In **Lesson 6 (Random Forests)**, you’ll learn all about random forests, another machine learning model you can add to your growing toolkit. Then, put your new knowledge to use immediately by building your own random forest model that exceeds the performance of the models that you’ve built so far!
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEzsBdAGBN8EVf_eHx9GAC8Tm_TNWoG_yjV1YFU8lKvAdCUNARtFndDCxHAmYZOpVoI0trsuUSvq_QZUHPLwS84VAQ1l1y1Hq7l60jLj9AHNeeOHALWMwPURoWSlCMEN9bUxgbW7u7cjRC6KPzamhrIBTxYNouylw7Y_B781Esdso9UroOlXwf-zaj-gZ0Gc6qvifir32kLXCFdJDzUGnWl5IkzwCrD4egA) (from Lesson 6 of the Intro to ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEwhDV0s6j2emtTCNegBKjenk0oBg2RGeJPYEBTHoIhHbN01eVL8ExaHjbKAb4HYZmpZxZiDX2NHcMHYaXg2soFZVgjCiIy2PTy3THz0cDiGiO5gXO_uUzoqYlZfg8i-0Ze93B8Ux9SnoTYpdn8AkRRkrSRbKrmQ656bGOL-W8_4mKXQ_4YnZBVjDMzgvgf31BV_4Pa1-P5rC9bGdRb7TGf6GhM) (from Lesson 6 of the Intro to ML course)
 
 * Conclusion
   
@@ -177,17 +186,23 @@
   
   * One of the best features of Random Forest models is that they generally work reasonably even without tuning. （隨機森林模型不加參數也有好表現）
 
-<img src='images/light.png' width=17> In **Lesson 6 (Random Forests)**, you’ll learn all about random forests, another machine learning model you can add to your growing toolkit. Then, put your new knowledge to use immediately by building your own random forest model that exceeds the performance of the models that you’ve built so far!
+--
 
-* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEzsBdAGBN8EVf_eHx9GAC8Tm_TNWoG_yjV1YFU8lKvAdCUNARtFndDCxHAmYZOpVoI0trsuUSvq_QZUHPLwS84VAQ1l1y1Hq7l60jLj9AHNeeOHALWMwPURoWSlCMEN9bUxgbW7u7cjRC6KPzamhrIBTxYNouylw7Y_B781Esdso9UroOlXwf-zaj-gZ0Gc6qvifir32kLXCFdJDzUGnWl5IkzwCrD4egA) (from Lesson 6 of the Intro to ML course)
+### Day 11: Machine Learning Competitions
 
-* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEwhDV0s6j2emtTCNegBKjenk0oBg2RGeJPYEBTHoIhHbN01eVL8ExaHjbKAb4HYZmpZxZiDX2NHcMHYaXg2soFZVgjCiIy2PTy3THz0cDiGiO5gXO_uUzoqYlZfg8i-0Ze93B8Ux9SnoTYpdn8AkRRkrSRbKrmQ656bGOL-W8_4mKXQ_4YnZBVjDMzgvgf31BV_4Pa1-P5rC9bGdRb7TGf6GhM) (from Lesson 6 of the Intro to ML course)
+<img src='images/light.png' width=17> One way to further improve your skills is to participate in machine learning competitions. In **Lesson 7 (Machine Learning Competitions)**, you’ll create and submit your predictions to a Kaggle competition.
 
-### Day 11
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEzIg1itr5d9CjIye2nsyQU1MQP5kL_hgea7G-fe7KFXuP4mxtKHSCCKrg35eTYLKBtYJvrggdrvxe4zkWJVlPP7i7TPaEbZ2EXq4UWK2QoWr_ZWs4janTE-TZvUxsqY-c-A5flsE9Ix8YhOHH70BMmKI9L029Su_yNCPdBQRhIWRIShV4o_n7ukW9ANjEPK-X3DknHIIO8VIlKAEqTyOCrkpfUiknWyuWyqKMWtLfy3NEPo7g28EIy2) (from Lesson 7 of the Intro to ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEzU4TVntKibYgUr6h1R6fV8Lc_mL4y6_HdaUqyYDNrHzMKEU1y4SRM2eXubge27bImrkp3THh4iexkUC8IFdWr3zDqd9Xep8XHlSCMnAljLq07e_9kYAjUHnWIHXxnzsaxM7FsqYgGzfFkIHKifzOjcBszOsOFmQcFAtYv4iZYDL36ySAIY6Bw2OenGrj61J-tFwXVi3HN_W4GUfYlnFLutzsk) (from Lesson 7 of the Intro to ML course)
 
 ### Day 12
 
+--
+
 ### Day 13
+
+--
 
 ### Day 14
 
@@ -197,15 +212,27 @@
 
 ### Day 15
 
+--
+
 ### Day 16
+
+--
 
 ### Day 17
 
+--
+
 ### Day 18
+
+--
 
 ### Day 19
 
+--
+
 ### Day 20
+
+--
 
 ### Day 21
 
@@ -216,18 +243,34 @@
 
 ### Day 22
 
+--
+
 ### Day 23
+
+--
 
 ### Day 24
 
+--
+
 ### Day 25
+
+--
 
 ### Day 26
 
+--
+
 ### Day 27
+
+--
 
 ### Day 28
 
+--
+
 ### Day 29
+
+--
 
 ### Day 30
