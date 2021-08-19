@@ -14,7 +14,7 @@
     - [Day 9: Your First ML Model & Model Validation](#day-9-your-first-ml-model--model-validation)
     - [Day 10: Underfitting/Overfitting & Random Forests](#day-10-underfittingoverfitting--random-forests)
     - [Day 11: Machine Learning Competitions](#day-11-machine-learning-competitions)
-    - [Day 12](#day-12)
+    - [Day 12: Missing Values & Categorical Variables](#day-12-missing-values--categorical-variables)
     - [Day 13](#day-13)
     - [Day 14](#day-14)
   - [Week 3:](#week-3)
@@ -196,7 +196,25 @@
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEzU4TVntKibYgUr6h1R6fV8Lc_mL4y6_HdaUqyYDNrHzMKEU1y4SRM2eXubge27bImrkp3THh4iexkUC8IFdWr3zDqd9Xep8XHlSCMnAljLq07e_9kYAjUHnWIHXxnzsaxM7FsqYgGzfFkIHKifzOjcBszOsOFmQcFAtYv4iZYDL36ySAIY6Bw2OenGrj61J-tFwXVi3HN_W4GUfYlnFLutzsk) (from Lesson 7 of the Intro to ML course)
 
-### Day 12
+### Day 12: Missing Values & Categorical Variables
+
+<img src='images/light.png' width=17> In **Lesson 1 (Introduction)**, you’ll learn more about what the course covers.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEyeGsz3NFzrpXUJmAnZqH-D9an2JS8U40vrQlaUUJgBJxC4Ye2xkfsG1JOAtkyIlIYT8fghKQWSC3qXqTVT6AJ_doxkkbHg6ECF8qInzHIFQOx3dHm9nzFbHtA4yEiQzYZNn_b32DHZZf9jecpzO98vI_Cn_NhjKpmtfQeyq6NKC3OX1UDwAn_rTwKDp-JVwQ2wFpaW8PnhUjZmfSTBoHZOH9JKQYMVSg) (from Lesson 1 of the Intermediate ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEykgsWzAkw9lvN7POIePKtQzC7WuHHhVX86KstgZmxQQhI__6pMjnnNgMhTk5QQQojt4d2mGu3Ygf5DIh4ARu2_0IsccmBO6CCAwtJrJk7Ko6-BvUtrS4ksyD3YjeiYIzgr37Fmkug8kPHreFNF-Ly3gmIl4lA-zwMtxzull8--W2IKYMKWQSuPsfuzuiRkiz_t6jqW1XsCim6OuySdv1yHUTg) (from Lesson 1 of the Intermediate ML course)
+
+<img src='images/light.png' width=17> Most machine learning libraries (including scikit-learn) give an error if you try to build a model using data with missing values. In **Lesson 2 (Missing Values)**, you’ll learn about three different approaches for dealing with missing values in your data.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnExo3m-7JQBh5lf35KCKBRlJ27CO852KvzcH_0J5KSYltZIfN0pTUrCI6L83_3R-t8u46gQ_lc9sNU5Iloqx93DzCabWBn1xSjZ76ya7unBXyPXZLti1i7_3B2idRTxgZpV8L4-F640BWiMkx_zC_-ci9BcKDWwve-pbDMproh5m7WD5DoNUGEgZPsCYVtvQXF3eJnpmQRSvWPK2-ceR3iV0V4WwtXO1waKy) (from Lesson 2 of the Intermediate ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEz2bXQjDo4qXt-jBxsMsRrOLOc6_9L9ZZzADgd_4chGwxzmtEsZWcya0MzbVMBLAAGdb_qPbChZzJ-g2IcuoEY2j2W1-3WOqHQ2hIktYWAMXybhkXlBZCdoPipjtZb1V-VyDu0ZlVcuHxUThe1_7w00PLVhysQilaeggRULM2OrIB_r9npS10LUEXa9mPsJaOCnxKGwXlYc844wTWruGirqnyQ) (from Lesson 2 of the Intermediate ML course)
+
+<img src='images/light.png' width=17> A categorical variable is a variable that takes only a limited number of values, and it’s common to encounter them in data. Learn how to work with them in **Lesson 3 (Categorical Variables)**.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnExVyHY12rfXOigYacJM2X2NVFo1zZ8KXLaEyhKdfDRsp_td2MDuQB2cg_RTzOovT5mjG4GvIgOf8Y_zQAGzO1n2ISshsdu09dlMunBU-ruZfXsCOvV86SWtieUOlckMErElQx4bjXVfKDR6TwT8eHZWBHzS2g25INPSClygUAY56mMKmUUClVYd0pLwtytnfob2pOysvO90nCzM2_oglj4RreoiK6439MIPsMTyd23CZw) (from Lesson 3 of the Intermediate ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEyZ7VAAE_z2HAmR0sZbdiHbw3ixjF9uK9ppmMSkB44i6M1MHQNOtHS0F3iy4LkBjaAW6zwI_mD2sQ2VytyWZFl_58Qc-qBqBwD0t0qIIRu87chC8vKibOBOldfaCT78CIJrqzaxS9cpV3WQhhA7fQXRk0qQIfXouyZ2ghHXqGvD5jdncjScYmUhWyNuZx6LrMQSNmElwmq4QQnewjVVlC4Fta4) (from Lesson 3 of the Intermediate ML course)
 
 --
 
