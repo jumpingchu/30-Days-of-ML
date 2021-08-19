@@ -196,6 +196,8 @@
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEzU4TVntKibYgUr6h1R6fV8Lc_mL4y6_HdaUqyYDNrHzMKEU1y4SRM2eXubge27bImrkp3THh4iexkUC8IFdWr3zDqd9Xep8XHlSCMnAljLq07e_9kYAjUHnWIHXxnzsaxM7FsqYgGzfFkIHKifzOjcBszOsOFmQcFAtYv4iZYDL36ySAIY6Bw2OenGrj61J-tFwXVi3HN_W4GUfYlnFLutzsk) (from Lesson 7 of the Intro to ML course)
 
+--
+
 ### Day 12: Missing Values & Categorical Variables
 
 <img src='images/light.png' width=17> In **Lesson 1 (Introduction)**, you’ll learn more about what the course covers.
