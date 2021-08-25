@@ -15,7 +15,7 @@
     - [Day 10: Underfitting/Overfitting & Random Forests](#day-10-underfittingoverfitting--random-forests)
     - [Day 11: Machine Learning Competitions](#day-11-machine-learning-competitions)
     - [Day 12: Missing Values & Categorical Variables](#day-12-missing-values--categorical-variables)
-    - [Day 13](#day-13)
+    - [Day 13: Pipelines & Cross-Validation](#day-13-pipelines--cross-validation)
     - [Day 14](#day-14)
   - [Week 3:](#week-3)
     - [Day 15](#day-15)
@@ -204,7 +204,19 @@
 
 --
 
-### Day 13
+### Day 13: Pipelines & Cross-Validation
+
+<img src='images/light.png' width=17> In **Lesson 4 (Pipelines)**, you’ll learn a simple way to keep your data preprocessing and modeling code organized.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnExX--Gi2QawzoQSHU3Mnwy5ApZIlmF_aTky6ujcP_Fx8iaPuDFcPsVMqaDrFXI3U3KeIY_QVOhB5VDN1CY_-z5wX-xg0_Sbhr5ed0ovrlLNOct-dytrbvVJm0dMHv5eriAXwC0K483g_cqpN9DlfVJRQHqeWFb5gW1ndkrieNGnETChwpB3xCChP6uP__vdk418czdtLKVxqQ7ANm2X9OaEUjDrtS8) (from Lesson 4 of the Intermediate ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEyN0uAaUV5ERpaaJjIU4ipbYZSAzl1L05eALcqzR5MyDgfKIpp9KoyX11ZF9oj8LrgKrzCgU3BvsbWRYQCgI_1CKJKHg4JCwJSWap3_jwDGP_q1Ef8ynTGUZrh-9UndyGucNKS35TER0Gf7SFQU5DAzuz54GPUWSigci5SHyL7Gj-NqyU0U50F--ucT2cbq9hxaBqjT07Og2nYN077UcxJgj6VZ) (from Lesson 4 of the Intermediate ML course)
+
+<img src='images/light.png' width=17> You’re already a bit familiar with model validation from the Intro to Machine Learning course. In **Lesson 5 (Cross-Validation)**, you’ll explore a more advanced validation technique that gives a better measure of model performance.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEzgeYKZodbEen-sgLBnhyHmCx9aRMfMJ5cz0W2FcpJfo4DhO4xXAVvkC_k5vxM-f2XjhXMUOMn6d9flyjU0lbrWSW2BmoVoGIGpPzmmLoXcz4q745b9H0ilF34Li_U_j7MIrEIcv5M_0CjjpNq2Yyx7b6iqMx3syXjxtIIqAuP4yVraoUazINlIkol328xD7dPXP7B8_X8mXIp5r59RPXrIm5IHovhglzkRjaTF) (from Lesson 5 of the Intermediate ML course)
+
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEzyzZbgx_k1A_kBwKrXdbMaAE2M3ev-4jlxRNQ09tk5WxiyPRqtZOITmXZibUdsH4S8yzttPvtP6rlw60r3da_enUVSSSmcmq76kUPyyYovwIsV-G9NHN5zExQepgazqpZbAfcSjrq0twWwBOLZb148F-e-psnBXmFoj7ko04ny41p0pyA4Vfs4GuAzMVCOpKtRWez6JqTpXl8Yx775N3H1rlRW) (from Lesson 5 of the Intermediate ML course)
 
 --
 
