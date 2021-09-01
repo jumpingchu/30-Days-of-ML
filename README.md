@@ -19,7 +19,7 @@
       - [Step 1: Define Preprocessing Steps](#step-1-define-preprocessing-steps)
       - [Step 2: Define the Model](#step-2-define-the-model)
       - [Step 3: Create and Evaluate the Pipeline](#step-3-create-and-evaluate-the-pipeline)
-      - [Step 4: visualize scores (Optional)](#step-4-visualize-scores-optional)
+      - [Step 4: Visualize scores (Optional)](#step-4-visualize-scores-optional)
     - [Day 14](#day-14)
   - [Week 3:](#week-3)
     - [Day 15](#day-15)
@@ -280,7 +280,7 @@ scores = -1 * cross_val_score(my_pipeline, X, y,
                               cv=5,
                               scoring='neg_mean_absolute_error')
 ```
-#### Step 4: visualize scores (Optional)
+#### Step 4: Visualize scores (Optional)
 ```python
 import matplotlib.pyplot as plt
 
