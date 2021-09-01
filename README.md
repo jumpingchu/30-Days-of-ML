@@ -279,7 +279,11 @@ from sklearn.model_selection import cross_val_score
 scores = -1 * cross_val_score(my_pipeline, X, y,
                               cv=5,
                               scoring='neg_mean_absolute_error')
+                
 ```
+* 參考資料：
+  * [cross_val_score](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html)
+  * [scoring parameter](https://scikit-learn.org/stable/modules/model_evaluation.html)
 #### Step 4: Visualize scores (Optional)
 ```python
 import matplotlib.pyplot as plt
