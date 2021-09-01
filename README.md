@@ -16,6 +16,9 @@
     - [Day 11: Machine Learning Competitions](#day-11-machine-learning-competitions)
     - [Day 12: Missing Values & Categorical Variables](#day-12-missing-values--categorical-variables)
     - [Day 13: Pipelines & Cross-Validation](#day-13-pipelines--cross-validation)
+      - [Step 1: Define Preprocessing Steps](#step-1-define-preprocessing-steps)
+      - [Step 2: Define the Model](#step-2-define-the-model)
+      - [Step 3: Create and Evaluate the Pipeline](#step-3-create-and-evaluate-the-pipeline)
     - [Day 14](#day-14)
   - [Week 3:](#week-3)
     - [Day 15](#day-15)
@@ -212,11 +215,69 @@
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEyN0uAaUV5ERpaaJjIU4ipbYZSAzl1L05eALcqzR5MyDgfKIpp9KoyX11ZF9oj8LrgKrzCgU3BvsbWRYQCgI_1CKJKHg4JCwJSWap3_jwDGP_q1Ef8ynTGUZrh-9UndyGucNKS35TER0Gf7SFQU5DAzuz54GPUWSigci5SHyL7Gj-NqyU0U50F--ucT2cbq9hxaBqjT07Og2nYN077UcxJgj6VZ) (from Lesson 4 of the Intermediate ML course)
 
+#### Step 1: Define Preprocessing Steps
+```python
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder
+
+# Preprocessing for numerical data
+numerical_transformer = SimpleImputer(strategy='constant')
+
+# Preprocessing for categorical data
+categorical_transformer = Pipeline(steps=[
+    ('imputer', SimpleImputer(strategy='most_frequent')),
+    ('onehot', OneHotEncoder(handle_unknown='ignore'))
+])
+
+# Bundle preprocessing for numerical and categorical data
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', numerical_transformer, numerical_cols),
+        ('cat', categorical_transformer, categorical_cols)
+    ])
+```
+
+#### Step 2: Define the Model
+```python
+from sklearn.ensemble import RandomForestRegressor
+model = RandomForestRegressor(n_estimators=100, random_state=0)
+```
+
+#### Step 3: Create and Evaluate the Pipeline
+```python
+from sklearn.metrics import mean_absolute_error
+
+# Bundle preprocessing and modeling code in a pipeline
+my_pipeline = Pipeline(steps=[('preprocessor', preprocessor),
+                              ('model', model)
+                             ])
+
+# Preprocessing of training data, fit model 
+my_pipeline.fit(X_train, y_train)
+
+# Preprocessing of validation data, get predictions
+preds = my_pipeline.predict(X_valid)
+
+# Evaluate the model
+score = mean_absolute_error(y_valid, preds)
+```
+
 <img src='images/light.png' width=17> You’re already a bit familiar with model validation from the Intro to Machine Learning course. In **Lesson 5 (Cross-Validation)**, you’ll explore a more advanced validation technique that gives a better measure of model performance.
 
 * Read this [tutorial](https://notifications.google.com/g/p/AD-FnEzgeYKZodbEen-sgLBnhyHmCx9aRMfMJ5cz0W2FcpJfo4DhO4xXAVvkC_k5vxM-f2XjhXMUOMn6d9flyjU0lbrWSW2BmoVoGIGpPzmmLoXcz4q745b9H0ilF34Li_U_j7MIrEIcv5M_0CjjpNq2Yyx7b6iqMx3syXjxtIIqAuP4yVraoUazINlIkol328xD7dPXP7B8_X8mXIp5r59RPXrIm5IHovhglzkRjaTF) (from Lesson 5 of the Intermediate ML course)
 
 * Complete this [exercise](https://notifications.google.com/g/p/AD-FnEzyzZbgx_k1A_kBwKrXdbMaAE2M3ev-4jlxRNQ09tk5WxiyPRqtZOITmXZibUdsH4S8yzttPvtP6rlw60r3da_enUVSSSmcmq76kUPyyYovwIsV-G9NHN5zExQepgazqpZbAfcSjrq0twWwBOLZb148F-e-psnBXmFoj7ko04ny41p0pyA4Vfs4GuAzMVCOpKtRWez6JqTpXl8Yx775N3H1rlRW) (from Lesson 5 of the Intermediate ML course)
+
+```python
+from sklearn.model_selection import cross_val_score
+
+# Multiply by -1 since sklearn calculates *negative* MAE
+scores = -1 * cross_val_score(my_pipeline, X, y,
+                              cv=5,
+                              scoring='neg_mean_absolute_error')
+```
 
 --
 
