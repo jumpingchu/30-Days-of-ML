@@ -20,9 +20,10 @@
       - [Step 2: Define the Model](#step-2-define-the-model)
       - [Step 3: Create and Evaluate the Pipeline](#step-3-create-and-evaluate-the-pipeline)
       - [Step 4: Visualize scores (Optional)](#step-4-visualize-scores-optional)
-    - [Day 14](#day-14)
-  - [Week 3:](#week-3)
-    - [Day 15](#day-15)
+    - [Day 14: XGBoost & Data Leakage](#day-14-xgboost--data-leakage)
+      - [XGBoost Parameter Tuning](#xgboost-parameter-tuning)
+  - [Week 3~4:](#week-34)
+    - [Beginner-friendly competition](#beginner-friendly-competition)
 
 --
 
@@ -284,6 +285,7 @@ scores = -1 * cross_val_score(my_pipeline, X, y,
 * 參考資料：
   * [cross_val_score](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html)
   * [scoring parameter](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
 #### Step 4: Visualize scores (Optional)
 ```python
 import matplotlib.pyplot as plt
@@ -295,12 +297,53 @@ plt.show()
 
 --
 
-### Day 14
+### Day 14: XGBoost & Data Leakage
+
+<img src='images/light.png' width=17> In **Lesson 6 (XGBoost)**, you will learn how to build and optimize models with gradient boosting. This method dominates many Kaggle competitions and achieves state-of-the-art results on a variety of datasets.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEwYdhTmD5Wih4YtXjsA6RCdNl0X8n1l6PVE-jUvD86GHQzAnNzyoIbHxn0sIckxNtEdnhGHZBIFYrFuHzFUtsRs3q3NXdukPSd7WXOQshI_IG6BslGBey_y9xA9kzMnaJU5o_B9liqcC8-_znEbVdRLk8fI2zWcNa-bswIuc0b3C0J0E53TW96MPganykJQZzR4IgaE9YA4UHxsXG-2GN0P3g) (from Lesson 6 of the Intermediate ML course)
+  
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEx2lZmQDjTvUwMGS0pswUVNsgUCNss-m4Dhw-tIxhq_rqt0uSuBbJTts-hhhmPBd-zCwCIQupCPjZKBIvxzjHKYu0M7P3UkmgbMnDgziMx71xqNEG3F4oreHULxg2jwwhU1k-4uOBq4jEcoyggTEmj0t4s9T0KLPQrzRVUL-4TZ82Tw9shypJ1IxF6XwDn_C6IkC5k2oWXZSkqMn0j2KR6u4nI) (from Lesson 6 of the Intermediate ML course)
+  
+* 屬於 Ensemble 中的 Gradien Boosting 方法
+
+#### XGBoost Parameter Tuning
+* `n_estimators`
+  * 是 model cycling 的次數，設定太高會造成 overfitting，太低則會 underfitting
+  * 通常設定在 100~1000（但與 Learning rate 參數有很大關係）
+  
+* `early_stopping_rounds`
+  * 當 validation score 不再進步時，會讓模型提早結束迭代，方便找到最佳 `n_estimators`
+  * 建議可以設定高 `n_estimators` 搭配 `early_stopping_rounds=5` 使用（代表連續五次 score 不再進步即停止）
+  * 同時要設定 `eval_set` 作為 validation data
+  
+* `learning_rate`
+  * 將每次的預測在放進模型之前，先乘上一個數字
+  * 可以讓新加入 ensemble 的 tree 影響變小，避免我們設定高 `n_estimators` 時的 overfitting
+
+* `n_jobs`
+  * 利用電腦的核心做平行運算，減少 `fit()` 所需時間
+  * 只適用於大型資料集，對小型的沒有幫助  
+
+  ```python
+  my_model = XGBRegressor(n_estimators=1000, learning_rate=0.05, n_jobs=4)
+  my_model.fit(X_train, y_train, 
+              early_stopping_rounds=5, 
+              eval_set=[(X_valid, y_valid)], 
+              verbose=False)
+  ```
+<img src='images/light.png' width=17> In **Lesson 7 (Data Leakage)**, you will learn what data leakage is and how to prevent it. If you don't know how to prevent it, leakage will come up frequently, and it will ruin your models in subtle and dangerous ways. So, this is one of the most important concepts for practicing data scientists.
+
+* Read this [tutorial](https://notifications.google.com/g/p/AD-FnEzaDbKKG7gTrcvjGU6gS0QR-jVFMuF0VdX93vrMcgp_g5dlCcrYY_JxGjIZtvXy9RQka3y-NogmAWIdL-hJQAko5576VntUl2RhnAJOpCcjdJlj_M9rBvrytTGPsGWq5dORWz3r-SqRWZZXqCCpBgKUJtJYW8cC6MtX0P_C2PicPmQAc9J3BiRalrdZi3-wiSiYNOpodDsFiOh9BCMmhN3SNJwun2T9Dw) (from Lesson 7 of the Intermediate ML course)
+  
+* Complete this [exercise](https://notifications.google.com/g/p/AD-FnEwYfKLrpe2ed_4FDiB9DgAXP0c2WpuSI7JETl5FSrUBKekgZbVsJqoADcAtLN28WZsP32GzOZs_OaLXpGUC_TnIgMDt1PbQd8G7wMEcS_S1W1Mg-RgfrLfQRX5qnk2pmbLfrjH-Z-uOVPdjtLh5FtLAwRL4zsuQ8SNtmJNn3YsMzpvzBdF7k0_DbM9vLC2d0hRIcGbKsRdzgdrJY1ijTTghwac) (from Lesson 7 of the Intermediate ML course)
 
 ---
 
-## Week 3: 
+## Week 3~4: 
 
-### Day 15
+### Beginner-friendly competition
 
---
+* Get started with the [competition](https://www.kaggle.com/c/30-days-of-ml/overview/prizes).
+
+<img src='images/light.png' width=17> In the link above, you’ll find a [detailed introduction](https://www.kaggle.com/alexisbcook/getting-started-with-kaggle-competitions) to Kaggle competitions (that covers how to work in a team and much more), along with a [getting started tutorial](https://www.kaggle.com/alexisbcook/getting-started-with-30-days-of-ml-competition) that walks you through how to make your very first submission.
