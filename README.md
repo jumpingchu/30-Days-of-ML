@@ -22,8 +22,15 @@
       - [Step 4: Visualize scores (Optional)](#step-4-visualize-scores-optional)
     - [Day 14: XGBoost & Data Leakage](#day-14-xgboost--data-leakage)
       - [XGBoost Parameter Tuning](#xgboost-parameter-tuning)
-  - [Week 3~4:](#week-34)
-    - [Beginner-friendly competition](#beginner-friendly-competition)
+        - [`n_estimators`](#n_estimators)
+        - [`early_stopping_rounds`](#early_stopping_rounds)
+        - [`learning_rate`](#learning_rate)
+        - [`n_jobs`](#n_jobs)
+  - [Week 3: Beginner-friendly competition](#week-3-beginner-friendly-competition)
+  - [Week 4: Beginner-friendly competition](#week-4-beginner-friendly-competition)
+    - [Important Notes](#important-notes)
+      - [Competition](#competition)
+      - [Google Developer Expert Workshops](#google-developer-expert-workshops)
 
 --
 
@@ -308,20 +315,20 @@ plt.show()
 * 屬於 Ensemble 中的 Gradien Boosting 方法
 
 #### XGBoost Parameter Tuning
-* `n_estimators`
+##### `n_estimators`
   * 是 model cycling 的次數，設定太高會造成 overfitting，太低則會 underfitting
   * 通常設定在 100~1000（但與 Learning rate 參數有很大關係）
   
-* `early_stopping_rounds`
+##### `early_stopping_rounds`
   * 當 validation score 不再進步時，會讓模型提早結束迭代，方便找到最佳 `n_estimators`
   * 建議可以設定高 `n_estimators` 搭配 `early_stopping_rounds=5` 使用（代表連續五次 score 不再進步即停止）
   * 同時要設定 `eval_set` 作為 validation data
   
-* `learning_rate`
+##### `learning_rate`
   * 將每次的預測在放進模型之前，先乘上一個數字
   * 可以讓新加入 ensemble 的 tree 影響變小，避免我們設定高 `n_estimators` 時的 overfitting
 
-* `n_jobs`
+##### `n_jobs`
   * 利用電腦的核心做平行運算，減少 `fit()` 所需時間
   * 只適用於大型資料集，對小型的沒有幫助  
 
@@ -340,10 +347,30 @@ plt.show()
 
 ---
 
-## Week 3~4: 
-
-### Beginner-friendly competition
+## Week 3: Beginner-friendly competition
 
 * Get started with the [competition](https://www.kaggle.com/c/30-days-of-ml/overview/prizes).
 
 <img src='images/light.png' width=17> In the link above, you’ll find a [detailed introduction](https://www.kaggle.com/alexisbcook/getting-started-with-kaggle-competitions) to Kaggle competitions (that covers how to work in a team and much more), along with a [getting started tutorial](https://www.kaggle.com/alexisbcook/getting-started-with-30-days-of-ml-competition) that walks you through how to make your very first submission.
+
+---
+
+## Week 4: Beginner-friendly competition
+
+* Continue submitting to [the competition](https://www.kaggle.com/c/30-days-of-ml/overview/prizes).
+
+* Watch the [extracurricular workshops](https://notifications.google.com/g/p/AD-FnExMba-6TjYNJj3WZkwq11uVEJ378LUxo8TiE8fzyJqpzXZCHduirhACk8df-5J2UIiwG1w95aAGlRJ-x1r9sVs_kGWKZhnWvVzgtTVRa5MiaJEuVp_GwBhbdJht1909cXslJvtdVm8zCPGsTA) from Google’s Developer Expert Machine Learning Program.
+
+### Important Notes
+
+#### Competition
+
+* It’s not too late to get started, if you have not already. [This guide](https://notifications.google.com/g/p/AD-FnEwAuVJLkXWU5p3pnhFZH5gF9aUqv9n96GjV2QgI8oQIhoKYgx7ECdysGlU4421DlJYJQeaj67FEIBtwLowZYPbb3_YSHuo7SIOwL1Rj_ljmCtNZBh5zA7GMjlBwa0Si2yXFUmCoidLsr-eAz7YlXL9LjVamltWfCQ1y30-yoNv9OYbo1_V92h9TwWHfiFlNYCIvxF73wDcuUDJg2wMLVqvJyQwwcqZ5o-DASTBzekAZZrZrIgszIubdrvwbTfsMQFx_MCE) has all of the orientation you need.
+
+* You can make really strong progress by doing just a little bit each day: aim to submit to the competition at least once each day. Remember you can chat with other participants in the [Discussion tab](https://notifications.google.com/g/p/AD-FnEzKIYoeHhT9w9Y1L2QaxZg5IYgIyWlihc94UEccL3kOFi-g1EotH8tht9xjZKH0AvslywZa2nq1-MZLNxAlPM9EaVLhBpW3TVhMfv70VR5Czucm0mlqcFwfONmeVdPlUcU3j_tGty-N-KRR83t8tviUc8xQ4rcpBXACYFc9ImR5uKBpbWBe55hqMmjdPFZslz30TAtjoXH7YxUpPljA6U7TXFM-nytUjyNK), and you can view code examples from the Kaggle community in the [Code tab](https://notifications.google.com/g/p/AD-FnExtOL7j5RBdmHtgL3HMIJLjfY49Iy70Zb7cS7_kwGrlxiTXv8RTwrnpajQRERyNt2RbZaVnfmrNICQfbtFUgUUfcSvmapj_lrmAwXNUXedK3SQxD31opRM-hL7oI69WcfWfOY6w_OdQ6dvFAB99aI9eRZSaHvi8PaqNRhg9994BmUFnHyJLWKHjLAYpVg7Ipbw6HllaMQ46Uc8zhx5ed7LdZ-o).
+
+#### Google Developer Expert Workshops
+
+* The workshops are optional for the 30 Days of ML program. There are 3 available: Intro to Supervised Classification, How to Build a Data Science Portfolio and Scikit-optimize for LightGBM.
+
+* If you have any questions, there is a Question and Answer channel for each workshop in the [30 Days of ML Discord server](https://notifications.google.com/g/p/AD-FnEx7Scn5_UGLQh5oISNmXqddmIElc_P_8OjobMgNjODNkWulIdJyqXpmX21ONJIoYYrAokszmEWKKSVd_EgdugwTIWgBApx5yMnr7uHDt8vwL76SER6-vDLYapmG30Q1Q1Pjj2bWW26PKNDv2GczhQyueThFJU3IkxSGy3Sq4DBJg5vaFQG0InYLxRma1f9l2_2Mrt27). Note: the speakers may not be able to get to every question. If you are able to answer a question, feel free to jump in to help others.
